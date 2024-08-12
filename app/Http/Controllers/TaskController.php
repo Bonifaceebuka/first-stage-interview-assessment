@@ -4,9 +4,7 @@ namespace App\Http\Controllers;
 
 use Carbon\Carbon;
 use App\Models\Task;
-use App\Models\User;
 use App\Http\Requests\TaskRequest;
-use Illuminate\Support\Collection;
 use App\Http\Resources\TaskResource;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Traits\HttpResponseTrait;

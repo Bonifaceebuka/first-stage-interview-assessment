@@ -22,6 +22,7 @@ This application is built with the following technologies:
 7. Import the database tables with this command: `php artisan migrate`.
 10. Start the application with `php artisan serve`
 	Visit localhost:8000/ to see the front-end of the application
+11. You can run the tests with `vendor/bin/phpunit` command
 
 ## NOTE
 1. The base URL for all the request is localhost:8000/api

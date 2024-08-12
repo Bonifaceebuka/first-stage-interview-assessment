@@ -39,7 +39,8 @@ class TaskRequest extends FormRequest
             'title.required' => 'Title is required!',
             'title.max' => 'Title should not be more that 255 characters!',
 
-            'planned_date.date' => 'Planned data must be a valid date!',
+            'planned_date.date' => 'Planned date must be a valid date!',
+            'planned_date.after_or_equal' => 'Planned date must be a later than today!',
 
             'status.required' => 'Status is required!',
             'status.min' => 'Status is invalid!',

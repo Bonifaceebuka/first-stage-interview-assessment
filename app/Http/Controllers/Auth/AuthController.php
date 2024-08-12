@@ -34,12 +34,6 @@ class AuthController extends Controller
 
                 if (Hash::check($request->password, $user->password)) {
 
-                    // returning a message when the user account is not activated
-                    if ($user->email_verified_at == null) {
-                        $message = 'Please verify your account';
-                        $status_code = 400;
-                    }
-
                     $token_purose = 'login';
                     $token_time_span = 1;
                     $token_date = 'hours';
